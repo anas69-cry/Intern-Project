@@ -1,0 +1,69 @@
+
+
+:root{
+    --redColor: #FF3A44;
+    --gbColor:#0B4C61;
+    --popins:'Poppins', sans-serif;
+}
+
+/* =====================
+    Navbar Start
+======================== */
+
+.nav-item .nav-link{
+   font-family: var(--popins);
+font-size: 15px;
+color: #333333 !important;
+}
+
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.navbar{
+    margin-top: 20px;
+}
+
+.nav-btn{
+    background-color: var(--redColor);
+    color: white;
+    font-family: var(--popins);
+    font-weight: 600;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 500px;
+}
+
+.nav-hover {
+    height: 8px;
+    width: 45px;
+    transition: 0.3s;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: -35px;
+    left: 28px;
+}
+
+.nav-hover-3 {
+    top: -35px;
+    left: 39px;
+}
+
+.nav-hover-4 {
+    top: -35px;
+    left: 47px;
+}
+
+.nav-hover-5 {
+    top: -35px;
+    left: 35px;
+}
+.nav-item:hover .nav-hover {
+ background-color: var(--gbColor);
+}
+
+/* =====================
+    Navbar End
+======================== */
