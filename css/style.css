@@ -133,3 +133,107 @@ color: #333333 !important;
 /* =====================
     Banner Section End
 ========================== */
+
+
+/* =====================
+    Workspace Section Start
+========================== */
+#workspace {
+    margin-top: 130px;
+    padding-top: 110px;
+    background: url(../img/Vector.png);
+     background-repeat: no-repeat;
+   background-size: 100%;
+   position: relative;
+}
+
+
+
+#workspace .workspace-wrapper {
+    background-color: #0B4C61;
+}
+
+.workspace-header p {
+    width: 396px;
+}
+
+.workspace-header h2 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: var(--popins);
+    width: 687px;
+}
+
+/* 2nd row */
+
+.workspace-content{
+background-color: var(--redColor);
+border-radius: 20px;
+margin-top: 35px;
+position: relative;
+z-index: 5;
+}
+
+.workspace-content-2{
+    background-color: #FFBD2F;
+}
+.workspace-content-3{
+    background-color: #0489CA;
+    
+}
+.workspace-content-3 h4{
+    color: rgba(255, 255, 255, 0) !important;
+}
+
+.workspace-content picture img {
+    padding-top: 45px;
+    padding-bottom: 17px;
+    filter: drop-shadow(0px 5px 3px #000);
+}
+
+.workspace-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--popins);
+    padding: 0px 17px;
+}
+
+.workspace-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--popins);
+    padding: 0px 15px;
+}
+
+.workspace-content p {
+    margin-top: 11px;
+    font-size: 15px;
+    font-family: var(--popins);
+    padding: 0px 20px;
+    padding-bottom: 90px;
+}
+.for-vector{
+    position: relative;
+}
+.workspace-vector-1 {
+    position: absolute;
+    z-index: 1;
+    left: -130px;
+    top: 105px;
+}
+
+.for-vector-2{
+    position: relative;
+}
+
+.workspace-vector-2 {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 60px;
+}
+/* =====================
+    Workspace Section End
+========================== */
+
+
