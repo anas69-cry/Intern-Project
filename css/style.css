@@ -25,16 +25,15 @@ color: #333333 !important;
     margin-top: 20px;
 }
 
-.nav-btn{
+.nav-btn {
     background-color: var(--redColor);
     color: white;
     font-family: var(--popins);
     font-weight: 600;
-    padding: 13px 25px;
+    padding: 10px 25px;
     border: none;
     border-radius: 500px;
 }
-
 .nav-hover {
     height: 8px;
     width: 45px;
@@ -67,3 +66,69 @@ color: #333333 !important;
 /* =====================
     Navbar End
 ======================== */
+
+/* =====================
+    Banner Section Start
+========================== */
+
+.banner-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: var(--popins);
+    color: #333333;
+    padding-right: 148px;
+    margin-top: 110px;
+}
+.banner-content p {
+    font-size: 16px;
+    font-family: var(--popins);
+    color: #888888;
+    padding-right: 243px;
+    margin-top: 20px;
+}
+
+.banner-content button {
+    padding: 15px 27px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF3A44;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-img{
+    position: relative;
+}
+
+.banner-img picture img {
+    margin-top: 80px;
+    border-radius: 20px !important;
+    margin-left: -11px;
+    
+}
+
+.pla-btn-icon {
+    filter: drop-shadow(0px 0px 7px #FFBD2F);
+    position: absolute;
+    top: 211px;
+    left: 212px;
+}
+
+.banner-vertor-img img {
+    position: absolute;
+    top: -12px;
+    right: -95px;
+    z-index: -1;
+}
+
+.banner-vertor-img-left img {
+    position: absolute;
+    top: 328px;
+    left: -96px;
+    z-index: -1;
+}
+/* =====================
+    Banner Section End
+========================== */
