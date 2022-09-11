@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern</title>
-    <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -57,10 +58,12 @@
                                 <a class="nav-link " aria-current="page" href="#">Contact</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
+                        <div class="">
+                            <form class="d-flex">
 
-                            <button class="nav-btn" type="submit">Sing Up Now</button>
-                        </form>
+                                <button class="nav-btn" type="submit">Sing Up Now</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -87,7 +90,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada vitae varius velit
                             sem.
                             Aliquet sapien vel lacus purus sit. At.</p>
-                        <button>Download The Theme</button>
+                        <div class="nav-button d-flex">
+                            <button>Download The Theme</button></div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -96,12 +100,12 @@
                             <img class="w-100 img-fluid" src="./img/Rectangle 746.svg" alt="">
                         </picture>
                         <img class="pla-btn-icon" src="./img/Group 707.png" alt="">
-                        <div class="banner-vertor-img">
+                        <div class="banner-vertor-img d-none">
                             <picture>
                                 <img src="./img/Vector 119.png" alt="">
                             </picture>
                         </div>
-                        <div class="banner-vertor-img-left">
+                        <div class="banner-vertor-img-left d-none">
                             <picture>
                                 <img src="./img/Vector 120.png" alt="">
                             </picture>
@@ -141,7 +145,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3">
                         <div class="for-vector">
-                            <div class="workspace-vector-1">
+                            <div class="workspace-vector-1 d-none">
 
                                 <img src="./img/Vector 117.png" alt="">
 
@@ -171,7 +175,7 @@
                     <div class="col-lg-3">
                         <div class="for-vector-2">
 
-                            <div class="workspace-vector-2">
+                            <div class="workspace-vector-2 d-none">
 
                                 <img src="./img/Vector 116.png" alt="">
 
@@ -350,7 +354,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="analytics-vector">
-                        <picture ><img  src=" ./img/Group 703.png" alt=""></picture>
+                        <picture><img src=" ./img/Group 703.png" alt=""></picture>
                     </div>
                 </div>
             </div>
@@ -361,7 +365,190 @@
         Analytics Section End
     ========================== -->
 
-    <!-- <script src="./js/all.min.js"></script> -->
+    <!-- =====================
+        Customer Section Stary
+    ========================== -->
+
+    <section id="customer">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <div class="customer-content">
+                        <h2>Our Customers Have Nice
+                            Things To Say About Us</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="row">
+                <div class="col-lg-5 offset-md-1">
+                    <div class="customer-img">
+                        <div class="customer-vector-left d-none">
+                            <picture>
+                                <img src="./img/Vector 114.png" alt="">
+                            </picture>
+                        </div>
+                        <picture>
+                            <img class="w-100 z-ind-5" src="./img/Group 712.png" alt="">
+                        </picture>
+                        <div class="customer-vector-right d-none">
+                            <picture>
+                                <img src="./img/Vector 115.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ">
+                    <div class="customer-content">
+                        <div class="customer-c-v d-flex justify-content-center d-lg-block">
+                            <picture>
+                                <img src="./img/Vector.svg" alt="">
+                            </picture>
+                        </div>
+                        <p>"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being
+                            heard in the
+                            world of medicine is really what motivated me to join this study. Not only to advocate for
+                            myself but”
+                        </p>
+                        <div class="customer-info d-flex d-lg-block flex-column justify-content-center mt-5">
+                            <h3>Jhony Bravo</h3>
+                            <p class="mt-1">CEO, THE MEFISHER</p>
+                        </div>
+                        <div class="customer-slide-flex d-flex d-lg-block justify-content-center">
+                            <div class="customer-slide justify-content-around">
+                                <div class="customer-slide-icon"></div>
+                                <div class="customer-slide-icon"></div>
+                                <div class="customer-slide-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+        Customer Section End
+    ========================== -->
+
+    <!-- =====================
+        Helping Section Start
+    ========================== -->
+
+    <section id="helping">
+        <div class="container">
+            <div class="helping-wrapper">
+                <div class="row text-white">
+                    <div
+                        class="col-lg-5 offset-md-1 d-flex d-lg-block flex-column justify-content-center align-items-center">
+                        <h2 class="">Helping teams in the
+                            world with focus</h2>
+                        <div class="helping-wrapper-btn">
+                            <button>Download The Theme</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-md-1">
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat
+                            viverra id et
+                            aliquet. vulputate egestas sollicitudin .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+        Helping Section End
+    ========================== -->
+
+    <!-- =====================
+        Footer Section Start
+    ========================== -->
+    <footer id="footer">
+        <div class="footer-hr"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 offset-md-1">
+                    <div class="footer-site-info flex-column d-flex d-lg-block">
+                        <picture><img class="mt-5" src="./img/Group 695.png" alt=""></picture>
+                        <p class="mt-3">Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus,
+                            sed condimentum volutpat. </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 ">
+                    <div class="footer-social mt-lg-5 pt-3">
+                        <h4>Socials</h4>
+                        <p class="mt-3">themefisher@gmail.com</p>
+                        <div class="footer-icon-flix d-flex d-lg-block justify-content-center">
+                        <div class="footer-icons d-flex d-lg-block ">
+                            <div class="i-face footrt-i">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="i-twitter footrt-i"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="i-link footrt-i"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="i-skype footrt-i"> <i class="fa-brands fa-skype"></i></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="footer-links mt-5 ">
+                        <h4>Quick Links</h4>
+                        <p class="mt-lg-5"><a href="#">Category</a></p>
+                        <p><a href="#">Testimonial</a></p>
+                        <p><a href="#">Contact</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-location mt-5">
+                        <div class="location-vector">
+                            <picture>
+                                <img class=" d-none d-lg-block" src="./img/Vector 118.png" alt="">
+                            </picture>
+                        </div>
+                        <h4>Location & Contact</h4>
+                        <p class="mt-4 ">2118 Thornridge Cir. Syracuse,
+                            Connecticut 35624</p>
+                       <div class="f-location-flex d-flex d-lg-block justify-content-center">
+                            <div class="f-location">
+                            <p>(704) 5</p>
+                            <p> 55-0127</p>
+                        </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-hr mt-4 mb-4"></div>
+    </footer>
+
+    <!-- =====================
+        Footer Section End
+    ========================== -->
+
+    <!-- =====================
+        Copyright Section Start
+    ========================== -->
+    <section id="copyright">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-5 pb-3">
+                    <p>Designed By Themefisher, Developed by Gethugothemes</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- =====================
+        Copyright Section End
+    ========================== -->
+
+    <script src="./js/all.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

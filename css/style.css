@@ -142,7 +142,7 @@ color: #333333 !important;
 ========================== */
 #workspace {
     margin-top: 130px;
-    padding-top: 110px;
+    padding-top: 8%;
     background: url(../img/Vector.png);
      background-repeat: no-repeat;
    background-size: 100%;
@@ -313,5 +313,226 @@ padding-bottom: 10px;
 }
 /* =====================
     Analytics Section End
+========================== */
+
+/* =====================
+    Customer Section Stary
+========================== */
+#customer{
+    background-color: #0B4C61;
+    padding-bottom: 80px;
+}
+.z-ind-5{
+    position: relative;
+    z-index: 5;
+}
+.customer-img {
+    position: relative;
+}
+.customer-content h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+}
+
+.customer-vector-left {
+    position: absolute;
+    top: 95px;
+    left: -100px;
+    z-index: 1;
+}
+
+.customer-vector-right {
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    z-index: 1;
+}
+
+.customer-content p {
+    color: #C6C6C6;
+    font-size: 22px;
+    margin-top: -40px;
+    margin-left: 49px;
+}
+
+.customer-info h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 49px;
+}
+
+.customer-slide{
+    display: flex;
+    width: 80px;
+    margin-left: 43px;
+}
+
+.customer-slide-icon{
+    height: 15px;
+    width: 15px;
+    background-color: #0D6785;
+    border-radius: 50%;
+}
+
+.customer-slide-icon:first-child{
+    background-color: #FFBD2F;
+}
+/* =====================
+    Customer Section End
+========================== */
+
+/* =====================
+    Helping Section Start
+========================== */
+
+#helping{
+    background-color: #0B4C61;
+    padding-bottom: 80px;
+}
+
+.helping-wrapper{
+    background-color: #0C5F79;
+    border-radius: 45px;
+    padding: 75px 0px;
+}
+
+.helping-wrapper h2{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.helping-wrapper button{
+    
+    padding: 15px 27px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF3A44;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.helping-wrapper p {
+    font-size: 18px;
+    width: 393px;
+}
+
+/* =====================
+    Helping Section End
+========================== */
+
+/* =====================
+    Footer Section Start
+========================== */
+
+#footer{
+    background-color: #0B4C61;
+    padding-bottom: 5px;
+}
+
+.footer-hr {
+    margin: 0 auto;
+    height: 1px;
+    width: 85%;
+    background-color: #196781;
+    color: #000;
+}
+
+.footer-site-info p {
+    font-size: 14px;
+    color: #E6E6E6;
+    padding-right: 40px;
+}
+
+.footer-social h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-social p{
+     font-size: 14px;
+     color: #E6E6E6;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.footrt-i{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footrt-i i{
+    margin-top: 10px;
+}
+
+.footer-links h4{
+font-size: 18px;
+font-weight: 600;
+color: #fff;
+}
+
+.footer-links p a{
+    font-size: 14px;
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+.footer-location{
+    position: relative;
+}
+
+.footer-location h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  
+
+}
+.footer-location p{
+    color: #E6E6E6;
+}
+
+.f-location {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.location-vector {
+    position: absolute;
+    top: 122px;
+    left: 290px;
+}
+/* =====================
+    Footer Section End
+========================== */
+
+/* =====================
+    Copyright Section Start
+========================== */
+
+#copyright{
+    background-color: #0B4C61;
+    font-size: 14px;
+    color: #E6E6E6;
+}
+
+/* =====================
+    Copyright Section End
 ========================== */
 

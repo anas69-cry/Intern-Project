@@ -1,0 +1,139 @@
+/* xxl Device Start*/
+
+@media(max-width:575.99px) {
+   .navbar-brand {
+       transform: scale(0.9);
+   }
+    .navbar-nav li {
+        margin: 0 auto;
+    }
+    .nav-btn {
+       margin: 0 auto;
+    }
+
+    .nav-item:hover .nav-hover {
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #navbarSupportedContent {
+        margin-top: 30px;
+    }
+
+    .banner-content h1 {
+        padding-right: 0;
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .banner-content button {
+        padding: 12px 15px;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+    .banner-img picture img {
+        margin-top: 35px;
+        border-radius: 20px !important;
+        margin-left: 0px;
+    }
+
+    .pla-btn-icon {
+        top: 31%;
+        left: 29%;
+        transform: scale(0.8);
+    }
+
+    .workspace-header h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .workspace-header p {
+        width: auto;
+    }
+
+    .schedule-header h2 {
+        font-size: 25px;
+        width: auto;
+    }
+
+    #schedule {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .analytics-content p {
+        width: auto;
+    }
+
+    .customer-content h2 {
+        font-size: 30px;
+    }
+
+    .customer-content p {
+        color: #C6C6C6;
+        font-size: 17px;
+        margin-top: -40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .customer-info h3 {
+        margin-left: 0;
+    }
+
+    .customer-slide {
+        margin-left: 0;
+    }
+    .helping-wrapper h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .customer-info h3 {
+        text-align: center;
+    }
+
+    .helping-wrapper p {
+        font-size: 18px;
+        width: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #helping {
+        padding-bottom: 20px;
+    }
+
+    .footer-site-info p {
+        padding-right: 0;
+    }
+
+    .footer-site-info {
+        text-align: center;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+   .footer-links {
+       text-align: center;
+   }
+   .footer-location {
+       text-align: center;
+    }
+.analytics-content {
+    padding-left: 30px;
+}
+}
+
+/* xxl Device End*/
+
+
