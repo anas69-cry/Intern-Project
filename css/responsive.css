@@ -12,9 +12,11 @@
     .nav-btn {
         margin: 0 auto;
     }
-
+.nav-hover{
+    transition: 0s;
+}
     .nav-item:hover .nav-hover {
-        background-color: rgba(255, 0, 0, 0);
+        background-color: #fff;
     }
 
     #navbarSupportedContent {
@@ -153,7 +155,9 @@
     .navbar-brand {
         transform: scale(0.9);
     }
-
+.nav-hover {
+    transition: 0s;
+}
     .navbar-nav li {
         margin: 0 auto;
     }
@@ -329,7 +333,9 @@
     .navbar-nav li {
         margin: 0 auto;
     }
-
+.nav-hover {
+    transition: 0s;
+}
     .nav-btn {
         margin: 0 auto;
     }

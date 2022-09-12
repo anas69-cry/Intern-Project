@@ -40,7 +40,6 @@ body {
 
 .nav-hover {
     height: 8px;
-
     transition: 0.3s;
     position: absolute;
     background-color: var(--gbColor);
