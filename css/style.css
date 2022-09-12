@@ -1,29 +1,30 @@
-body{
+body {
     font-family: var(--popins);
 }
 
-:root{
+:root {
     --redColor: #FF3A44;
-    --gbColor:#0B4C61;
-    --popins:'Poppins', sans-serif;
+    --gbColor: #0B4C61;
+    --popins: 'Poppins', sans-serif;
 }
 
 /* =====================
     Navbar Start
 ======================== */
 
-.nav-item .nav-link{
-   font-family: var(--popins);
-font-size: 15px;
-color: #333333 !important;
+.nav-item .nav-link {
+    font-family: var(--popins);
+    font-size: 15px;
+    color: #333333 !important;
 }
 
-.nav-item{
+.nav-item {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
 }
-.navbar{
+
+.navbar {
     margin-top: 20px;
 }
 
@@ -36,33 +37,53 @@ color: #333333 !important;
     border: none;
     border-radius: 500px;
 }
+
 .nav-hover {
     height: 8px;
-    width: 45px;
+
     transition: 0.3s;
     position: absolute;
+    background-color: var(--gbColor);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     top: -35px;
     left: 28px;
+    width: 0;
 }
 
 .nav-hover-3 {
     top: -35px;
-    left: 39px;
+    left: 28px;
 }
 
 .nav-hover-4 {
     top: -35px;
-    left: 47px;
+    left: 28px;
+
 }
 
 .nav-hover-5 {
     top: -35px;
-    left: 35px;
+    left: 28px;
+    
+
 }
+
+
 .nav-item:hover .nav-hover {
- background-color: var(--gbColor);
+    width: 45px;
+}
+
+.nav-item:hover .nav-hover-3 {
+    width: 71px;
+}
+
+.nav-item:hover .nav-hover-4 {
+    width: 86px;
+}
+
+.nav-item:hover .nav-hover-5 {
+    width: 62px;
 }
 
 /* =====================
@@ -73,7 +94,7 @@ color: #333333 !important;
     Banner Section Start
 ========================== */
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 48px;
     font-weight: bold;
     font-family: var(--popins);
@@ -81,6 +102,7 @@ color: #333333 !important;
     padding-right: 148px;
     margin-top: 110px;
 }
+
 .banner-content p {
     font-size: 16px;
     font-family: var(--popins);
@@ -100,7 +122,7 @@ color: #333333 !important;
     margin-top: 20px;
 }
 
-.banner-img{
+.banner-img {
     position: relative;
 }
 
@@ -108,7 +130,7 @@ color: #333333 !important;
     margin-top: 80px;
     border-radius: 20px !important;
     margin-left: -11px;
-    
+
 }
 
 .pla-btn-icon {
@@ -132,6 +154,7 @@ color: #333333 !important;
     left: -96px;
     z-index: -1;
 }
+
 /* =====================
     Banner Section End
 ========================== */
@@ -144,9 +167,9 @@ color: #333333 !important;
     margin-top: 130px;
     padding-top: 8%;
     background: url(../img/Vector.png);
-     background-repeat: no-repeat;
-   background-size: 100%;
-   position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
 }
 
 
@@ -157,6 +180,7 @@ color: #333333 !important;
 
 .workspace-header p {
     width: 396px;
+    color: #D0D0D0;
 }
 
 .workspace-header h2 {
@@ -168,22 +192,24 @@ color: #333333 !important;
 
 /* 2nd row */
 
-.workspace-content{
-background-color: var(--redColor);
-border-radius: 20px;
-margin-top: 35px;
-position: relative;
-z-index: 5;
+.workspace-content {
+    background-color: var(--redColor);
+    border-radius: 20px;
+    margin-top: 35px;
+    position: relative;
+    z-index: 5;
 }
 
-.workspace-content-2{
+.workspace-content-2 {
     background-color: #FFBD2F;
 }
-.workspace-content-3{
+
+.workspace-content-3 {
     background-color: #0489CA;
-    
+
 }
-.workspace-content-3 h4{
+
+.workspace-content-3 h4 {
     color: rgba(255, 255, 255, 0) !important;
 }
 
@@ -214,9 +240,11 @@ z-index: 5;
     padding: 0px 20px;
     padding-bottom: 90px;
 }
-.for-vector{
+
+.for-vector {
     position: relative;
 }
+
 .workspace-vector-1 {
     position: absolute;
     z-index: 1;
@@ -224,7 +252,7 @@ z-index: 5;
     top: 105px;
 }
 
-.for-vector-2{
+.for-vector-2 {
     position: relative;
 }
 
@@ -234,6 +262,7 @@ z-index: 5;
     left: 70px;
     top: 60px;
 }
+
 /* =====================
     Workspace Section End
 ========================== */
@@ -257,21 +286,23 @@ z-index: 5;
     width: 770px;
 }
 
-.schedule-content h4{
-font-size: 38px;
-font-weight: bold;
-color: #FFBD2F;
-}
-.schedule-content h5{
-font-size: 18px;
-font-weight: 600;
-padding-bottom: 10px;
+.schedule-content h4 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #FFBD2F;
 }
 
-.schedule-content p{
+.schedule-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.schedule-content p {
     font-size: 15px;
     color: #D0D0D0;
 }
+
 /* =====================
     Schedule Section End
 ========================== */
@@ -280,7 +311,7 @@ padding-bottom: 10px;
     Analytics Section Start
 ========================== */
 
-#analytisc{
+#analytisc {
     background-color: #0B4C61;
 }
 
@@ -292,10 +323,12 @@ padding-bottom: 10px;
     padding-top: 15px;
     margin-top: 25px;
 }
-.analytics-content h5{
+
+.analytics-content h5 {
     font-size: 18px;
     font-weight: 600;
 }
+
 .analytics-content p {
     font-size: 15px;
     width: 380px;
@@ -303,7 +336,7 @@ padding-bottom: 10px;
     color: #D0D0D0;
 }
 
-.analytics-vector picture img{
+.analytics-vector picture img {
     width: 100%;
     object-fit: cover;
 }
@@ -311,6 +344,7 @@ padding-bottom: 10px;
 .analytics-content-top {
     margin-top: 55px;
 }
+
 /* =====================
     Analytics Section End
 ========================== */
@@ -318,18 +352,21 @@ padding-bottom: 10px;
 /* =====================
     Customer Section Stary
 ========================== */
-#customer{
+#customer {
     background-color: #0B4C61;
     padding-bottom: 80px;
 }
-.z-ind-5{
+
+.z-ind-5 {
     position: relative;
     z-index: 5;
 }
+
 .customer-img {
     position: relative;
 }
-.customer-content h2{
+
+.customer-content h2 {
     font-size: 38px;
     font-weight: bold;
     color: white;
@@ -356,29 +393,30 @@ padding-bottom: 10px;
     margin-left: 49px;
 }
 
-.customer-info h3{
+.customer-info h3 {
     color: white;
     font-size: 24px;
     font-weight: bold;
     margin-left: 49px;
 }
 
-.customer-slide{
+.customer-slide {
     display: flex;
     width: 80px;
     margin-left: 43px;
 }
 
-.customer-slide-icon{
+.customer-slide-icon {
     height: 15px;
     width: 15px;
     background-color: #0D6785;
     border-radius: 50%;
 }
 
-.customer-slide-icon:first-child{
+.customer-slide-icon:first-child {
     background-color: #FFBD2F;
 }
+
 /* =====================
     Customer Section End
 ========================== */
@@ -387,25 +425,25 @@ padding-bottom: 10px;
     Helping Section Start
 ========================== */
 
-#helping{
+#helping {
     background-color: #0B4C61;
     padding-bottom: 80px;
 }
 
-.helping-wrapper{
+.helping-wrapper {
     background-color: #0C5F79;
     border-radius: 45px;
     padding: 75px 0px;
 }
 
-.helping-wrapper h2{
+.helping-wrapper h2 {
     font-size: 48px;
     font-weight: bold;
-    
+
 }
 
-.helping-wrapper button{
-    
+.helping-wrapper button {
+
     padding: 15px 27px;
     border-radius: 50px;
     border: none;
@@ -415,6 +453,7 @@ padding-bottom: 10px;
     font-weight: 600;
     margin-top: 20px;
 }
+
 .helping-wrapper p {
     font-size: 18px;
     width: 393px;
@@ -428,7 +467,7 @@ padding-bottom: 10px;
     Footer Section Start
 ========================== */
 
-#footer{
+#footer {
     background-color: #0B4C61;
     padding-bottom: 5px;
 }
@@ -447,15 +486,15 @@ padding-bottom: 10px;
     padding-right: 40px;
 }
 
-.footer-social h4{
+.footer-social h4 {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
 }
 
-.footer-social p{
-     font-size: 14px;
-     color: #E6E6E6;
+.footer-social p {
+    font-size: 14px;
+    color: #E6E6E6;
 }
 
 .footer-icons {
@@ -465,7 +504,7 @@ padding-bottom: 10px;
     width: 220px;
 }
 
-.footrt-i{
+.footrt-i {
     height: 40px;
     width: 40px;
     background-color: #fff;
@@ -473,37 +512,38 @@ padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.footrt-i i{
+.footrt-i i {
     margin-top: 10px;
 }
 
-.footer-links h4{
-font-size: 18px;
-font-weight: 600;
-color: #fff;
+.footer-links h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
-.footer-links p a{
+.footer-links p a {
     font-size: 14px;
     color: #E6E6E6;
     text-decoration: none;
 }
 
-.footer-location{
+.footer-location {
     position: relative;
 }
 
-.footer-location h4{
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-  
+.footer-location h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+
 
 }
-.footer-location p{
+
+.footer-location p {
     color: #E6E6E6;
 }
 
@@ -518,6 +558,7 @@ color: #fff;
     top: 122px;
     left: 290px;
 }
+
 /* =====================
     Footer Section End
 ========================== */
@@ -526,7 +567,7 @@ color: #fff;
     Copyright Section Start
 ========================== */
 
-#copyright{
+#copyright {
     background-color: #0B4C61;
     font-size: 14px;
     color: #E6E6E6;
@@ -535,4 +576,3 @@ color: #fff;
 /* =====================
     Copyright Section End
 ========================== */
-

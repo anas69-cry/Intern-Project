@@ -412,7 +412,7 @@
         padding-bottom: 0px;
     }
 
-    
+
 
     .analytics-content p {
         font-size: 14px;
@@ -495,12 +495,12 @@
         width: 113%;
     }
 
-.customer-vector-right {
-    position: absolute;
-    top: 500px;
-    left: 375px;
-    z-index: 1;
-}
+    .customer-vector-right {
+        position: absolute;
+        top: 500px;
+        left: 375px;
+        z-index: 1;
+    }
 
     .customer-vector-left img {
         width: 80%;
@@ -516,7 +516,7 @@
 
 /* MD Device END */
 
-/* XL Device Start */
+/* lg Device Start */
 
 @media(min-width:992px) and (max-width:1199px) {
     .navbar-brand {
@@ -537,24 +537,24 @@
         margin: 0 auto;
     }
 
-    .navbar-nav li:first-child{
+    .navbar-nav li:first-child {
         padding-left: 0 !important;
     }
 
-   #navbarSupportedContent {
-       margin-top: 0;
-   }
+    #navbarSupportedContent {
+        margin-top: 0;
+    }
 
- .banner-content h1 {
-     padding-right: 0;
-     font-size: 45px;
-     margin-top: 25px;
- }
+    .banner-content h1 {
+        padding-right: 0;
+        font-size: 45px;
+        margin-top: 25px;
+    }
 
-   .banner-content p {
-       padding-right: 0;
-       font-size: 16px;
-   }
+    .banner-content p {
+        padding-right: 0;
+        font-size: 16px;
+    }
 
     .banner-content button {
         padding: 12px 15px;
@@ -569,19 +569,21 @@
         margin-left: 0px;
     }
 
-.pla-btn-icon {
-    top: 30%;
-    left: 29%;
-    transform: scale(0.6);
-}
+    .pla-btn-icon {
+        top: 30%;
+        left: 29%;
+        transform: scale(0.6);
+    }
 
     #workspace {
         margin-top: 50px;
 
     }
-.workspace-center{
-    justify-content: space-around!important;
-}
+
+    .workspace-center {
+        justify-content: space-around !important;
+    }
+
     .workspace-content p {
         margin-top: 11px;
         font-size: 15px;
@@ -595,18 +597,18 @@
         width: auto;
     }
 
-   .workspace-content p {
-       padding-bottom: 100px;
-   }
+    .workspace-content p {
+        padding-bottom: 100px;
+    }
 
     .workspace-content picture img {
         padding-top: 60px;
     }
 
-   .schedule-header h2 {
-	font-size: 30px;
-	width: auto;
-}
+    .schedule-header h2 {
+        font-size: 30px;
+        width: auto;
+    }
 
     #schedule {
         padding-top: 30px;
@@ -614,11 +616,12 @@
     }
 
 
-.analytics-content p {
-    font-size: 14px;
-    width: auto;
-    padding-right: 26px;
-}
+    .analytics-content p {
+        font-size: 14px;
+        width: auto;
+        padding-right: 26px;
+    }
+
     .analytics-content h5 {
         font-size: 18px;
         font-weight: 600;
@@ -631,41 +634,47 @@
         margin-left: 0;
         text-align: center;
     }
-.analytics-vector {
-    margin-top: 17%;
-}
+
+    .analytics-vector {
+        margin-top: 17%;
+    }
+
     .customer-info h3 {
         margin-left: 0;
     }
-.customer-content h2 {
-    font-size: 33px;
-    font-weight: bold;
-    color: white;
-    padding-top: 30px;
-}
+
+    .customer-content h2 {
+        font-size: 33px;
+        font-weight: bold;
+        color: white;
+        padding-top: 30px;
+    }
+
     .customer-slide {
         margin-left: 0;
     }
 
-   .helping-wrapper h2 {
-       font-size: 30px;
-       text-align: auto;
-   }
+    .helping-wrapper h2 {
+        font-size: 30px;
+        text-align: auto;
+    }
 
     .customer-info h3 {
         text-align: start;
     }
 
-   .customer-content p {
-       color: #C6C6C6;
-       font-size: 17px;
-       margin-top: -40px;
-       margin-left: 0;
-       text-align: start;
-   }
-.customer-c-v {
-    margin-left: -49px;
-}
+    .customer-content p {
+        color: #C6C6C6;
+        font-size: 17px;
+        margin-top: -40px;
+        margin-left: 0;
+        text-align: start;
+    }
+
+    .customer-c-v {
+        margin-left: -49px;
+    }
+
     #helping {
         padding-bottom: 20px;
     }
@@ -715,13 +724,266 @@
         width: 80%;
     }
 
-   .customer-vector-left {
-       position: absolute;
-       top: 65px;
-       left: -84px;
-       z-index: 1;
-   }
-  
+    .customer-vector-left {
+        position: absolute;
+        top: 65px;
+        left: -84px;
+        z-index: 1;
+    }
+
+    .nav-hover-1{
+        left: 8px;
+    }
+
+}
+
+/* LG Device End */
+
+/* XL Device Start */
+
+@media(min-width:1200px) and (max-width:1399px) {
+    .navbar-brand {
+        transform: scale(0.9);
+    }
+
+    .navbar-nav li {
+        margin: 0 auto;
+    }
+
+    .nav-item {
+        padding-left: 20px;
+        padding-right: 0;
+        position: relative;
+    }
+
+    .nav-btn {
+        margin: 0 auto;
+    }
+
+    .navbar-nav li:first-child {
+        padding-left: 0 !important;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 0;
+    }
+
+    .banner-content h1 {
+        padding-right: 59px;
+        margin-top: 43px;
+    }
+
+    .banner-content p {
+        padding-right: 118px;
+
+    }
+
+    .banner-content button {
+        padding: 12px 15px;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+    .banner-img picture img {
+        margin-top: 35px;
+        border-radius: 20px !important;
+        margin-left: 0px;
+    }
+
+    .pla-btn-icon {
+        top: 140px;
+        left: 176px;
+    }
+
+    #workspace {
+        margin-top: 50px;
+
+    }
+
+    .workspace-vector-1 {
+        position: absolute;
+        z-index: 1;
+        left: -115px;
+        top: 115px;
+    }
+
+    .workspace-vector-2 {
+        position: absolute;
+        z-index: 1;
+        left: 20px;
+        top: 100px;
+    }
+
+    .workspace-center {
+        justify-content: center !important;
+    }
+
+    .workspace-header p {
+        width: 365px;
+    }
+
+    .workspace-header h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .workspace-content p {
+        padding-bottom: 100px;
+    }
+
+    .workspace-content picture img {
+        padding-top: 60px;
+    }
+
+    .schedule-header h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    #schedule {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+
+    .analytics-content p {
+        font-size: 14px;
+        width: auto;
+        padding-right: 26px;
+    }
+
+    .analytics-content h5 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .customer-content p {
+        color: #C6C6C6;
+        font-size: 17px;
+        margin-top: -40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .analytics-vector {
+        margin-top: 4%;
+    }
+
+    .customer-info h3 {
+        margin-left: 0;
+    }
+
+    .customer-content h2 {
+        font-size: 33px;
+        font-weight: bold;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .customer-slide {
+        margin-left: 0;
+    }
+
+    .helping-wrapper h2 {
+        font-size: 30px;
+        text-align: auto;
+    }
+
+    .customer-info h3 {
+        text-align: start;
+    }
+
+    .customer-content p {
+        color: #C6C6C6;
+        font-size: 17px;
+        margin-top: -40px;
+        margin-left: 0;
+        text-align: start;
+    }
+
+    .customer-c-v {
+        margin-left: -49px;
+    }
+
+    #helping {
+        padding-bottom: 20px;
+    }
+
+    .helping-wrapper {
+        background-color: #0C5F79;
+        border-radius: 20px;
+        padding: 45px 0px;
+    }
+
+    .footer-site-info p {
+        padding-right: 0;
+    }
+
+    .footer-site-info {
+        text-align: center;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+
+    .footer-location {
+        text-align: center;
+    }
+
+    .analytics-content {
+        padding-left: 18px;
+    }
+
+    .customer-vector-right img {
+        width: 113%;
+    }
+
+    .customer-vector-right {
+        position: absolute;
+        top: 276px;
+        left: 246px;
+        z-index: 1;
+    }
+    .customer-vector-left img {
+        width: 80%;
+    }
+
+    .customer-vector-left {
+        position: absolute;
+        top: 65px;
+        left: -84px;
+        z-index: 1;
+    }
+    .f-location {
+        margin-left: 30px;
+    }
+.nav-home {
+    
+        left: 8px;
+    
+}
 }
 
 /* XL Device End */
+
+/* XXL Device Start */
+
+@media(min-width:1400px){
+    .workspace-center {
+        justify-content: center;
+    }
+
+    .location-vector {
+        position: absolute;
+        top: 89px;
+        left: 198px;
+    }
+}
+
+/* XXL Device End */
